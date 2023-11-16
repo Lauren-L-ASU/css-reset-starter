@@ -289,6 +289,11 @@ textarea{
     color: var(--dk-gray);
 }
 
+/* add figure selector, Center figure image */
+figure {
+    margin: 1em 40px;
+}
+
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
@@ -296,8 +301,10 @@ code{
 }
 
 /* for the pre block */
+/* Add margin to existing pre code for top spacing */
 pre{
     font-family: var(--code-fonts);
+    margin: 1em 0;
 }
 
 pre code{
