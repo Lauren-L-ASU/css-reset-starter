@@ -97,6 +97,8 @@ nav ul{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0;
+    /* Add margin to nav ul */
+    margin: 1em 0;
 }
 
 nav a{
@@ -118,6 +120,21 @@ nav a:hover{
 main > section{
     padding: 1rem 0;
 }
+
+/* Fix h1 font issues and header spacing */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+/* Add h2 styles, fixing font size, weight, and margin */
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.83em 0;
+}
+
 
 /* Styles for the h2 & h3 tags */
 h2, h3{
