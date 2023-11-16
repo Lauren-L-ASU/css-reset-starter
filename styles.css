@@ -135,6 +135,7 @@ h2 {
     margin: 0.83em 0;
 }
 
+/* add h3 styles, fixing font size, weight, and margin */
 h3 {
     font-size: 1.17rem;
     font-weight: bold;
@@ -203,13 +204,20 @@ input{
     height: 2rem;
 }
 
-/* Fieldset Styles */
+/* fix Fieldset Styles, adjusting adjusting padding, and adding border */
 fieldset{
     display: grid;
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
     border-color: var(--red);
+    padding: 0.35rem 0.75em 0.625em 0.75em;
+    border: 2px groove var(--dk-gray);
+}
+
+/* Add legend selector, adjust padding */
+legend {
+    padding: 0 2px;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
